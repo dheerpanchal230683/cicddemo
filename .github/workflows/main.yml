@@ -19,4 +19,4 @@ jobs:
           script: |
             cd cicddemo
             git pull origin main
-            pm2 restart app || pm2 start app.js
+            pm2 restart app.js || pm2 start app.js
